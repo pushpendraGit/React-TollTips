@@ -69,8 +69,8 @@ for write */
   margin-left:20px;
   transform:translate(0, -50%);
   padding:0;
-  color:#EEEEEE;
-  background-color:#444444;
+  color:#ffffff;
+  background-color:#009cdc;
   font-weight:normal;
   font-size:13px;
   border-radius:8px;
@@ -110,7 +110,7 @@ for write */
   left:0;
   top:50%;
   transform:translate(50%,-50%) rotate(-45deg);
-  background-color:#444444;
+  background-color:#009cdc;
   box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
@@ -129,8 +129,8 @@ for write */
   margin-right:20px;
   transform:translate(0, -50%);
   padding:20px;
-  color:#666666;
-  background-color:#FFFFE0;
+  color:#ffffff;
+  background-color:#009cdc;
   font-weight:normal;
   font-size:13px;
   border-radius:8px;
@@ -163,7 +163,7 @@ for write */
   left:0;
   top:50%;
   transform:translate(-50%,-50%) rotate(-45deg);
-  background-color:#FFFFE0;
+  background-color:#009cdc;
   border:1px solid #DCA;
 }
 
@@ -182,8 +182,8 @@ for write */
   left:50%;
   transform:translate(-50%, 0);
   padding:20px;
-  color:#666666;
-  background-color:#EEEEEE;
+  color:#ffffff;
+  background-color:#009cdc;
   font-weight:normal;
   font-size:13px;
   border-radius:8px;
@@ -219,7 +219,7 @@ for write */
   height:12px;
   left:50%;
   transform:translate(-50%,50%) rotate(45deg);
-  background-color:#EEEEEE;
+  background-color:#009cdc;
   box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
 
@@ -246,7 +246,7 @@ for write */
 
 
 
-  height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -321,6 +321,7 @@ for write */
   height: 70px;
   display: flex;
   justify-content:space-between;
+ 
 }
 
 h1 {
@@ -333,18 +334,38 @@ h1 {
 /* for dropdown */
 
 
-.drop .ele {
-  width: 100px;
+ .ele {
+  width: 150px;
   height: 50px;
   border: 2px black dotted;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: black;
+  color:  var(--primary);
+  margin-top: 5px;
+  border: 2px solid var(--primary);
+  
+  
+ 
+ 
+}
+
+.back{
+
+
+  background-color:rgb(67,27,11);
+  cursor: pointer;
+ 
+  
+
 }
 
 #myDIV{
-  /* display: none; */
+  display: none;
   list-style: none;
+  height: 300px;
+  width: 200px;
 }
 
 

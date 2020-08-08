@@ -65,24 +65,24 @@ class App extends Component {
     return (
       <div>
         <div className="header">
-          <h1>&#x261D; Hover on the button &#x261D;</h1>
+          <h1> Click On Button 👉 </h1> 
 
           <div className="dropDown">
-            <button onClick={this.myFunction} className="btn">
+            <button onClick={this.myFunction} className="btn back">
               Click Me
             </button>
             <ul id="myDIV">
               <li className="ele" onClick={this.handleTop}>
-                <button>Top</button>
+                Top
               </li>
               <li className="ele" onClick={this.handleBottom}>
-                <button>Bottom</button>
+                Bottom
               </li>
               <li className="ele" onClick={this.handleLeft}>
-                <button>left</button>
+                Left
               </li>
               <li className="ele" onClick={this.handleRight}>
-                <button>right</button>
+                Right
               </li>
             </ul>
           </div>
